@@ -1,0 +1,13 @@
+yolo_model:
+
+  config_file:
+    name: demo.cfg
+  weight_file:
+    name: demo.weights
+  threshold:
+    value: 0.7
+  detection_classes:
+    names:
+      - box
+      - fire_ext
+      - palet
